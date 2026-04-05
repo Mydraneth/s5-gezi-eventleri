@@ -1,71 +1,71 @@
 {
   "stats": {
-    "expected": 0,
-    "unexpected": 9,
+    "expected": 12,
+    "unexpected": 0,
     "skipped": 0,
     "flaky": 0,
-    "duration": 17031
+    "duration": 2868
   },
   "tests": [
     {
       "title": "img hover edildiğinde grayscale class eklenmeli",
-      "status": "timedOut",
-      "duration": 2014
+      "status": "passed",
+      "duration": 1077
     },
     {
       "title": "img mouseleave olunca grayscale class silinmeli",
-      "status": "timedOut",
-      "duration": 2006
+      "status": "passed",
+      "duration": 209
     },
     {
       "title": "1 tuşuna basıldığında body class theme1 olmalı",
-      "status": "failed",
-      "duration": 1254
+      "status": "passed",
+      "duration": 144
     },
     {
       "title": "2 tuşuna basıldığında body class theme2 olmalı",
-      "status": "timedOut",
-      "duration": 2010
+      "status": "passed",
+      "duration": 153
     },
     {
       "title": "3 tuşuna basıldığında body class theme3 olmalı",
-      "status": "failed",
-      "duration": 1375
+      "status": "passed",
+      "duration": 144
     },
     {
       "title": "Escape tuşuna basıldığında tüm theme classları kaldırılmalı",
-      "status": "failed",
-      "duration": 1352
+      "status": "passed",
+      "duration": 142
     },
     {
       "title": "Inputa yazılan metin büyük harfe dönüşmeli",
-      "status": "failed",
-      "duration": 1212
+      "status": "passed",
+      "duration": 142
     },
     {
       "title": "5 karakterden küçükken buton disabled olmalı",
-      "status": "failed",
-      "duration": 1097
+      "status": "passed",
+      "duration": 150
     },
     {
       "title": "5 karakter ve üzeri yazıldığında buton enabled olmalı",
-      "status": "failed",
-      "duration": 979
+      "status": "passed",
+      "duration": 147
     },
     {
       "title": "Submit edildiğinde paragraf güncellenmeli",
-      "status": "failed",
-      "duration": 1423
+      "status": "passed",
+      "duration": 186
     },
     {
       "title": "Submit sonrası input alanı sıfırlanmalı",
-      "status": "failed",
-      "duration": 1145
+      "status": "passed",
+      "duration": 186
     },
     {
       "title": "Submit sonrası buton disabled olmalı",
-      "status": "failed",
-      "duration": 1165
+      "status": "passed",
+      "duration": 189
     }
   ]
 }
